@@ -1,0 +1,78 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(18, 141, 171);
+}
+
+li {
+  float: left;
+  cursor: pointer;
+  color:black;
+  
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  color:rgb(0, 0, 0);
+  background-color:antiquewhite;
+}
+
+li a:not(.active) {
+  background-color: rgb(18, 141, 171);;
+}
+
+
+
+label{
+    display:inline-table;
+    width:200px;
+    text-align:left;
+}
+input {
+  display: inline-block;
+  background-color: azure;
+  border: .5px solid;
+  border-radius:5%;
+  cursor: pointer;
+}
+
+/*Employee history*/
+
+.form-popup-new{
+  padding-top: 10px;
+  background-color:antiquewhite;
+  
+}
+
+
+.countainer1{
+  background-color:rgb(255, 255, 255);
+  border: 0px solid;
+  padding-left: 10px;
+
+}
+.countainer2{
+  background-color:rgba(199, 176, 143, 0.795);
+  border: 0px solid;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color:rgb(137, 137, 137);
+}
+
+
+table, th, td {
+  border: 0px solid;
+  border-collapse: separate;
+  border-spacing: 1em 0;
+}
