@@ -1,0 +1,190 @@
+
+ body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background: #ddd;
+            color: black;
+        }
+
+        .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px;
+            /* Used in this example to enable scrolling */
+        }
+
+        /* Button used to open the contact form - fixed at the bottom of the page */
+        .open-button {
+            background-color: rgb(56, 56, 56);
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: center;
+        }
+
+        .disable {
+            pointer-events: none;
+            text-decoration: none;
+            color:#ddd;
+        }
+
+        /* The popup form - hidden by default */
+    .form-popup {
+        display: none;
+        position: absolute;
+        border: 3px solid #c5c5c5;
+        z-index: 9;
+    }
+
+    /*new form*/
+     .form-popup-new {
+         display: none;
+         position: absolute;
+         border: 3px solid #c5c5c5;
+         z-index: 9;
+     }
+
+        /* Add styles to the form container */
+        .form-container {
+            max-width: auto;
+            padding: 10px;
+            background-color: white;
+        }
+
+        /* Full-width input fields */
+        .form-container input[type=text],
+        .form-container input[type=email] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=email]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for the submit/login button */
+        .form-container .btn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+        .i1 .btn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+
+        /* Add a red background color to the cancel button */
+        .form-container .cancel {
+            background-color: red;
+        }
+        .i1 .cancel {
+            background-color: red;
+        }
+
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover,
+        .open-button:hover {
+            opacity: 1;
+        }
+
+
+        .countainer1{
+            background-color:antiquewhite;
+            border-radius: 5px;
+            border-style: box;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .countainer2{
+            background-color: rgb(175, 169, 162);
+            border-radius: 5px;
+            border-style: box;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px
+
+        }
+
+        .countainer2 .ADD{
+                background-color: rgb(236, 179, 103);
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                border: none;
+        }
+        .countainer2 .ADD:hover{
+            background-color: rgb(230, 139, 21);
+        }
+
+        .i1 .ADD {
+            background-color: rgb(236, 179, 103);
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+        }
+
+        .i1 .ADD:hover {
+            background-color: rgb(230, 139, 21);
+        }
+
+        .i1{
+            background-color:#f1f1f1;
+            border-radius: 10px;
+            
+
+
+        }
+
+        .form-popup-new{
+            background-color:rgb(114, 113, 113);
+        }
+        
+
+
+
+        
